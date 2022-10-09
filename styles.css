@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}   
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 20%;
+    margin: 15vh auto;
+    padding: 1.5em;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 16px 16px 3px rgba(12, 12, 31, 1);
+    -moz-box-shadow: 2px 16px 16px 3px rgba(12, 12, 31, 1);
+    box-shadow: 2px 16px 16px 3px rgba(12, 12, 31, 1);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin: 0.8em 0;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin: 1em 0;
+    font-weight: 300;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.days{
+    color: hsl(215, 51%, 70%);
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+
+.name {
+    color: hsl(0, 0%, 100%);
+}
+
+.contribution {
+    margin-top: 1em;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+}
+.tribute {
+    margin-left: 1em;
+}
+
+.avatar {
+    
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.ethicon img {
+    float: left;
+    margin-right: 0.5em;
+}
+
+.daysleft img {
+    float: left;
+    margin-right: 0.5em;
+}
+
+.name:hover, h1:hover, .eq-image:hover {
+    cursor: pointer;
+}
