@@ -97,5 +97,7 @@ p {
 @media (max-width: 800px) {
     .card {
         width: 95%;
+        display: flex;
+        flex-direction: column;
     }
   }
