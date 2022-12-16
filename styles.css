@@ -87,6 +87,15 @@ p {
     margin-right: 0.5em;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
 .name:hover, h1:hover, .eq-image:hover {
     cursor: pointer;
 }
